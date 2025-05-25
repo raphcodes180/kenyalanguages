@@ -195,801 +195,704 @@ const kikuyuData = [
     image: null,
   },
 
-  // New entries (11-50)
+  // New entries (11-60)
   {
-    id: 'kikuyu-11',
-    word: 'Irio',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-11",
+    word: "Ĩgũrũ",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      { language: 'English', word: 'Food', notes: 'Edible substances.' },
+      { language: "English", word: "Sky", notes: "The atmosphere above the earth." }
     ],
     exampleSentences: [
-      { sentence: 'Irio ici nĩ njega', translation: 'This food is good' },
+      { sentence: "Ĩgũrũ rĩrĩ theru", translation: "The sky is clear" }
     ],
-    pronunciation: 'ee-ree-o',
+    pronunciation: "ee-goo-roo",
     audio: null,
-    tags: ['food', 'basic needs'],
-    notes: 'General term for food.',
-    image: null,
+    tags: ["nature", "space"],
+    notes: "Refers to the sky.",
+    image: "https://images.unsplash.com/photo-1503899036441-f008a92aeb94"
   },
   {
-    id: 'kikuyu-12',
-    word: 'Gĩkombe',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-12",
+    word: "Thĩ",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      {
-        language: 'English',
-        word: 'Cup',
-        notes: 'A small container for drinking.',
-      },
+      { language: "English", word: "Earth", notes: "The planet we live on." }
     ],
     exampleSentences: [
-      { sentence: 'Gĩkombe kĩa chai', translation: 'A cup of tea' },
+      { sentence: "Thĩ nĩ nene", translation: "The earth is big" }
     ],
-    pronunciation: 'gee-kom-beh',
+    pronunciation: "thee",
     audio: null,
-    tags: ['household', 'utensil'],
-    notes: 'Used for drinking liquids.',
-    image: null,
+    tags: ["nature", "planet"],
+    notes: "Refers to the planet Earth.",
+    image: "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d"
   },
   {
-    id: 'kikuyu-13',
-    word: 'Kũhanda',
-    language: 'Kikuyu',
-    partOfSpeech: 'verb',
+    id: "kikuyu-13",
+    word: "Gũkũa",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
     translations: [
-      {
-        language: 'English',
-        word: 'To plant',
-        notes: 'To put plants in the ground.',
-      },
+      { language: "English", word: "To carry", notes: "To support and move (someone or something)." }
     ],
     exampleSentences: [
-      { sentence: 'Nĩngũhanda mbembe', translation: 'I will plant maize' },
+      { sentence: "Nĩngũkũa mũrigo", translation: "I will carry the load" }
     ],
-    pronunciation: 'koo-han-da',
+    pronunciation: "goo-koo-a",
     audio: null,
-    tags: ['agriculture', 'action'],
-    notes: 'Important agricultural term.',
-    image: null,
+    tags: ["action", "transport"],
+    notes: "Basic verb for carrying.",
+    image: null
   },
   {
-    id: 'kikuyu-14',
-    word: 'Mbembe',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-14",
+    word: "Mũrango",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      { language: 'English', word: 'Maize/Corn', notes: 'A cereal grain.' },
+      { language: "English", word: "Door", notes: "A hinged barrier used to close an opening." }
     ],
     exampleSentences: [
-      { sentence: 'Mbembe ici nĩ njeru', translation: 'This maize is fresh' },
+      { sentence: "Mũrango ũyũ nĩ mũgũrũ", translation: "This door is old" }
     ],
-    pronunciation: 'm-bem-be',
+    pronunciation: "moo-ra-ngo",
     audio: null,
-    tags: ['food', 'agriculture'],
-    notes: 'Staple food in Kikuyu culture.',
-    image: null,
+    tags: ["place", "building"],
+    notes: "Refers to a door.",
+    image: "https://images.unsplash.com/photo-1619741495542-8a954fca9493"
   },
   {
-    id: 'kikuyu-15',
-    word: 'Mũgũnda',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-15",
+    word: "Njĩra",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      {
-        language: 'English',
-        word: 'Farm/Garden',
-        notes: 'Land used for growing crops.',
-      },
+      { language: "English", word: "Road", notes: "A way or route between two places." }
     ],
     exampleSentences: [
-      { sentence: 'Mũgũnda wakwa nĩ mũnene', translation: 'My farm is big' },
+      { sentence: "Njĩra ĩno nĩ ndaya", translation: "This road is wide" }
     ],
-    pronunciation: 'moo-goon-da',
+    pronunciation: "nji-ra",
     audio: null,
-    tags: ['agriculture', 'place'],
-    notes: 'Important for subsistence and livelihood.',
-    image: null,
+    tags: ["place", "transport"],
+    notes: "Refers to a road.",
+    image: "https://images.unsplash.com/photo-1547754980-c190957b559d"
   },
   {
-    id: 'kikuyu-16',
-    word: 'Kũrĩma',
-    language: 'Kikuyu',
-    partOfSpeech: 'verb',
+    id: "kikuyu-16",
+    word: "Gũthoma",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
     translations: [
-      {
-        language: 'English',
-        word: 'To farm/cultivate',
-        notes: 'To prepare and use land for crops.',
-      },
+      { language: "English", word: "To read", notes: "To look at and understand written material." }
     ],
     exampleSentences: [
-      {
-        sentence: 'Nĩndĩrarĩma mũgũnda',
-        translation: 'I am cultivating the farm',
-      },
+      { sentence: "Nĩngũthoma ibuku", translation: "I will read a book" }
     ],
-    pronunciation: 'koo-ree-ma',
+    pronunciation: "goo-tho-ma",
     audio: null,
-    tags: ['agriculture', 'action'],
-    notes: 'Primary economic activity in traditional Kikuyu society.',
-    image: null,
+    tags: ["action", "education"],
+    notes: "Basic verb for reading.",
+    image: null
   },
   {
-    id: 'kikuyu-17',
-    word: 'Mũtumia',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-17",
+    word: "Ibuku",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      { language: 'English', word: 'Woman', notes: 'Adult female human.' },
+      { language: "English", word: "Book", notes: "A written or printed work consisting of pages glued or sewn together along one side and bound in covers." }
     ],
     exampleSentences: [
-      {
-        sentence: 'Mũtumia ũcio nĩ mũthaka',
-        translation: 'That woman is beautiful',
-      },
+      { sentence: "Ibuku rĩrĩ nĩ rĩega", translation: "This book is good" }
     ],
-    pronunciation: 'moo-too-mee-a',
+    pronunciation: "ee-boo-koo",
     audio: null,
-    tags: ['people', 'gender'],
-    notes: 'Refers specifically to adult females.',
-    image: null,
+    tags: ["education", "literature"],
+    notes: "Refers to a book.",
+    image: "https://images.unsplash.com/photo-1516979188813-a9afc6caea48"
   },
   {
-    id: 'kikuyu-18',
-    word: 'Mũndũrũme',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-18",
+    word: "Gũtũma",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
     translations: [
-      { language: 'English', word: 'Man', notes: 'Adult male human.' },
+      { language: "English", word: "To send", notes: "To cause to go or be taken to a destination." }
     ],
     exampleSentences: [
-      {
-        sentence: 'Mũndũrũme ũcio nĩ mũraihu',
-        translation: 'That man is tall',
-      },
+      { sentence: "Nĩngũtũma ndũmĩrĩri", translation: "I will send a message" }
     ],
-    pronunciation: 'moon-doo-roo-meh',
+    pronunciation: "goo-too-ma",
     audio: null,
-    tags: ['people', 'gender'],
-    notes: 'Refers specifically to adult males.',
-    image: null,
+    tags: ["action", "communication"],
+    notes: "Basic verb for sending.",
+    image: null
   },
   {
-    id: 'kikuyu-19',
-    word: 'Mwana',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-19",
+    word: "Ndũmĩrĩri",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      { language: 'English', word: 'Child', notes: 'Young human being.' },
+      { language: "English", word: "Message", notes: "A spoken or written piece of information conveyed from one person to another." }
     ],
     exampleSentences: [
-      { sentence: 'Mwana ũyũ nĩ mũkuhi', translation: 'This child is short' },
+      { sentence: "Ndũmĩrĩri ĩno nĩ ya bata", translation: "This message is important" }
     ],
-    pronunciation: 'mwa-na',
+    pronunciation: "ndoo-mee-ree-ree",
     audio: null,
-    tags: ['people', 'family'],
-    notes: 'General term for a child, regardless of gender.',
-    image: null,
+    tags: ["communication", "information"],
+    notes: "Refers to a message.",
+    image: "https://images.unsplash.com/photo-1589742734176-e0f970f3b1b2"
   },
   {
-    id: 'kikuyu-20',
-    word: 'Aciari',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-20",
+    word: "Ũgĩ",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      { language: 'English', word: 'Parents', notes: 'Mother and father.' },
+      { language: "English", word: "Wisdom", notes: "The quality of having experience, knowledge, and good judgement." }
     ],
     exampleSentences: [
-      {
-        sentence: 'Aciari akwa nĩ arathimu',
-        translation: 'My parents are kind',
-      },
+      { sentence: "Ũgĩ nĩ wa bata", translation: "Wisdom is important" }
     ],
-    pronunciation: 'a-cha-ree',
+    pronunciation: "oo-gee",
     audio: null,
-    tags: ['family', 'people'],
-    notes: 'Plural form referring to both parents.',
-    image: null,
+    tags: ["quality", "knowledge"],
+    notes: "Refers to wisdom.",
+    image: "https://images.unsplash.com/photo-1507838153414-b4b79886a04c"
   },
   {
-    id: 'kikuyu-21',
-    word: 'Ithe',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-21",
+    word: "Gũteithia",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
     translations: [
-      { language: 'English', word: 'Father', notes: 'Male parent.' },
+      { language: "English", word: "To help", notes: "To give assistance or support to someone." }
     ],
     exampleSentences: [
-      {
-        sentence: 'Ithe wakwa nĩ mũrĩmi',
-        translation: 'My father is a farmer',
-      },
+      { sentence: "Nĩngũteithia mũndũ ũcio", translation: "I will help that person" }
     ],
-    pronunciation: 'ee-theh',
+    pronunciation: "goo-tei-thee-a",
     audio: null,
-    tags: ['family', 'people'],
-    notes: 'Used with possessive to indicate relationship.',
-    image: null,
+    tags: ["action", "support"],
+    notes: "Basic verb for helping.",
+    image: null
   },
   {
-    id: 'kikuyu-22',
-    word: 'Nyina',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-22",
+    word: "Ũrata",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      { language: 'English', word: 'Mother', notes: 'Female parent.' },
+      { language: "English", word: "Friendship", notes: "The emotions or conduct of friends; the state of being friends." }
     ],
     exampleSentences: [
-      {
-        sentence: 'Nyina wakwa nĩ mũrutani',
-        translation: 'My mother is a teacher',
-      },
+      { sentence: "Ũrata nĩ wa bata", translation: "Friendship is important" }
     ],
-    pronunciation: 'nyee-na',
+    pronunciation: "oo-ra-ta",
     audio: null,
-    tags: ['family', 'people'],
-    notes: 'Used with possessive to indicate relationship.',
-    image: null,
+    tags: ["relationship", "emotion"],
+    notes: "Refers to friendship.",
+    image: "https://images.unsplash.com/photo-1503435980610-aeb8e83344b9"
   },
   {
-    id: 'kikuyu-23',
-    word: 'Mwarĩ',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-23",
+    word: "Gũkenda",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
     translations: [
-      {
-        language: 'English',
-        word: 'Daughter',
-        notes: 'Female child in relation to parents.',
-      },
+      { language: "English", word: "To love", notes: "To have a strong feeling of affection for someone." }
     ],
     exampleSentences: [
-      {
-        sentence: 'Mwarĩ wakwa nĩ mũthaka',
-        translation: 'My daughter is beautiful',
-      },
+      { sentence: "Nĩngũkenda mũno", translation: "I love you very much" }
     ],
-    pronunciation: 'mwa-ree',
+    pronunciation: "goo-ken-da",
     audio: null,
-    tags: ['family', 'people'],
-    notes: 'Used with possessive to indicate relationship.',
-    image: null,
+    tags: ["emotion", "relationship"],
+    notes: "Basic verb for loving.",
+    image: null
   },
   {
-    id: 'kikuyu-24',
-    word: 'Mũriũ',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-24",
+    word: "Ngoro",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      {
-        language: 'English',
-        word: 'Son',
-        notes: 'Male child in relation to parents.',
-      },
+      { language: "English", word: "Heart", notes: "A hollow muscular organ that pumps the blood through the circulatory system." }
     ],
     exampleSentences: [
-      {
-        sentence: 'Mũriũ wakwa nĩ mũũgĩ',
-        translation: 'My son is intelligent',
-      },
+      { sentence: "Ngoro yakwa nĩ ĩgĩcanjama", translation: "My heart is happy" }
     ],
-    pronunciation: 'moo-ree-oo',
+    pronunciation: "ngo-ro",
     audio: null,
-    tags: ['family', 'people'],
-    notes: 'Used with possessive to indicate relationship.',
-    image: null,
+    tags: ["body", "emotion"],
+    notes: "Refers to the heart.",
+    image: "https://images.unsplash.com/photo-1541887049-dca0999450e4"
   },
   {
-    id: 'kikuyu-25',
-    word: 'Mũrata',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-25",
+    word: "Ũhoro",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      {
-        language: 'English',
-        word: 'Friend',
-        notes: 'Person with whom one has a bond of mutual affection.',
-      },
+      { language: "English", word: "News", notes: "Newly received or noteworthy information, especially about recent events." }
     ],
     exampleSentences: [
-      { sentence: 'Mũrata wakwa nĩ mwega', translation: 'My friend is good' },
+      { sentence: "Ũhoro ũcio nĩ mũũru", translation: "That news is bad" }
     ],
-    pronunciation: 'moo-ra-ta',
+    pronunciation: "oo-ho-ro",
     audio: null,
-    tags: ['relationship', 'people'],
-    notes: 'Used to describe close relationships outside family.',
-    image: null,
+    tags: ["information", "communication"],
+    notes: "Refers to news.",
+    image: "https://images.unsplash.com/photo-1495020689067-9588c892ca24"
   },
   {
-    id: 'kikuyu-26',
-    word: 'Kũruta wĩra',
-    language: 'Kikuyu',
-    partOfSpeech: 'verb',
+    id: "kikuyu-26",
+    word: "Gũcaria",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
     translations: [
-      {
-        language: 'English',
-        word: 'To work',
-        notes: 'To perform labor or tasks.',
-      },
+      { language: "English", word: "To search", notes: "To try to find something by looking or otherwise seeking carefully." }
     ],
     exampleSentences: [
-      {
-        sentence: 'Nĩndĩraruta wĩra mũgũnda',
-        translation: 'I am working on the farm',
-      },
+      { sentence: "Nĩngũcaria mũthako", translation: "I will search for a toy" }
     ],
-    pronunciation: 'koo-roo-ta wee-ra',
+    pronunciation: "goo-ca-ree-a",
     audio: null,
-    tags: ['action', 'livelihood'],
-    notes: 'Literally means "to do work".',
-    image: null,
+    tags: ["action", "discovery"],
+    notes: "Basic verb for searching.",
+    image: null
   },
   {
-    id: 'kikuyu-27',
-    word: 'Wĩra',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-27",
+    word: "Mũthako",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      {
-        language: 'English',
-        word: 'Work/Job',
-        notes: 'Employment or occupation.',
-      },
+      { language: "English", word: "Toy", notes: "An object for a child to play with." }
     ],
     exampleSentences: [
-      { sentence: 'Wĩra wakwa nĩ mwega', translation: 'My job is good' },
+      { sentence: "Mũthako ũyũ nĩ mũnini", translation: "This toy is small" }
     ],
-    pronunciation: 'wee-ra',
+    pronunciation: "moo-tha-ko",
     audio: null,
-    tags: ['livelihood', 'activity'],
-    notes: 'Refers to any form of labor or employment.',
-    image: null,
+    tags: ["object", "play"],
+    notes: "Refers to a toy.",
+    image: "https://images.unsplash.com/photo-1585336244342-97b941839c39"
   },
   {
-    id: 'kikuyu-28',
-    word: 'Kũrĩa',
-    language: 'Kikuyu',
-    partOfSpeech: 'adverb',
+    id: "kikuyu-28",
+    word: "Gũtũũra",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
     translations: [
-      {
-        language: 'English',
-        word: 'Where',
-        notes: 'In what place or position.',
-      },
+      { language: "English", word: "To live", notes: "To reside or have one's life in a particular place or manner." }
     ],
     exampleSentences: [
-      { sentence: 'Ũrathiĩ kũrĩa?', translation: 'Where are you going?' },
+      { sentence: "Nĩngũtũũra Nairobi", translation: "I will live in Nairobi" }
     ],
-    pronunciation: 'koo-ree-a',
+    pronunciation: "goo-too-oo-ra",
     audio: null,
-    tags: ['question', 'location'],
-    notes: 'Used to ask about location.',
-    image: null,
+    tags: ["action", "location"],
+    notes: "Basic verb for living.",
+    image: null
   },
   {
-    id: 'kikuyu-29',
-    word: 'Rĩ',
-    language: 'Kikuyu',
-    partOfSpeech: 'adverb',
+    id: "kikuyu-29",
+    word: "Ũrugarĩ",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      { language: 'English', word: 'When', notes: 'At what time.' },
+      { language: "English", word: "Heat", notes: "The quality of being hot; high temperature." }
     ],
     exampleSentences: [
-      { sentence: 'Ũgũũka rĩ?', translation: 'When will you come?' },
+      { sentence: "Ũrugarĩ ũyũ nĩ mũnene", translation: "This heat is intense" }
     ],
-    pronunciation: 'ree',
+    pronunciation: "oo-roo-ga-ree",
     audio: null,
-    tags: ['question', 'time'],
-    notes: 'Used to ask about time.',
-    image: null,
+    tags: ["nature", "temperature"],
+    notes: "Refers to heat.",
+    image: "https://images.unsplash.com/photo-1517423440433-44e04ca5894a"
   },
   {
-    id: 'kikuyu-30',
-    word: 'Atĩa',
-    language: 'Kikuyu',
-    partOfSpeech: 'adverb',
+    id: "kikuyu-30",
+    word: "Gũtheca",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
     translations: [
-      { language: 'English', word: 'How', notes: 'In what way or manner.' },
+      { language: "English", word: "To cook", notes: "To prepare food by heating it." }
     ],
     exampleSentences: [
-      { sentence: 'Ũreka atĩa?', translation: 'How are you doing?' },
+      { sentence: "Nĩngũtheca irio", translation: "I will cook food" }
     ],
-    pronunciation: 'a-tee-a',
+    pronunciation: "goo-the-ca",
     audio: null,
-    tags: ['question', 'manner'],
-    notes: 'Used to ask about manner or method.',
-    image: null,
+    tags: ["action", "food"],
+    notes: "Basic verb for cooking.",
+    image: null
   },
   {
-    id: 'kikuyu-31',
-    word: 'Nĩkĩ',
-    language: 'Kikuyu',
-    partOfSpeech: 'adverb',
+    id: "kikuyu-31",
+    word: "Irio",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      {
-        language: 'English',
-        word: 'Why',
-        notes: 'For what reason or purpose.',
-      },
+      { language: "English", word: "Food", notes: "Any nutritious substance that people or animals eat or drink in order to maintain life and growth." }
     ],
     exampleSentences: [
-      { sentence: 'Ũrathiĩ nĩkĩ?', translation: 'Why are you going?' },
+      { sentence: "Irio icio nĩ njega", translation: "That food is good" }
     ],
-    pronunciation: 'nee-kee',
+    pronunciation: "ee-ree-o",
     audio: null,
-    tags: ['question', 'reason'],
-    notes: 'Used to ask about reason or purpose.',
-    image: null,
+    tags: ["food", "sustenance"],
+    notes: "Refers to food.",
+    image: "https://images.unsplash.com/photo-1482049016688-2d36e1b9ca55"
   },
   {
-    id: 'kikuyu-32',
-    word: 'Ũ',
-    language: 'Kikuyu',
-    partOfSpeech: 'pronoun',
+    id: "kikuyu-32",
+    word: "Gũtemba",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
     translations: [
-      { language: 'English', word: 'Who', notes: 'What or which person.' },
-    ],
-    exampleSentences: [{ sentence: 'Ũ ũcio?', translation: 'Who is that?' }],
-    pronunciation: 'oo',
-    audio: null,
-    tags: ['question', 'person'],
-    notes: 'Used to ask about a person.',
-    image: null,
-  },
-  {
-    id: 'kikuyu-33',
-    word: 'Kĩ',
-    language: 'Kikuyu',
-    partOfSpeech: 'pronoun',
-    translations: [
-      { language: 'English', word: 'What', notes: 'Which thing or items.' },
-    ],
-    exampleSentences: [{ sentence: 'Kĩ kĩu?', translation: 'What is that?' }],
-    pronunciation: 'kee',
-    audio: null,
-    tags: ['question', 'thing'],
-    notes: 'Used to ask about objects or concepts.',
-    image: null,
-  },
-  {
-    id: 'kikuyu-34',
-    word: 'Mũciĩ',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
-    translations: [
-      { language: 'English', word: 'Home', notes: 'Place where one lives.' },
+      { language: "English", word: "To run", notes: "To move at a speed faster than a walk." }
     ],
     exampleSentences: [
-      { sentence: 'Nĩngũthiĩ mũciĩ', translation: 'I will go home' },
+      { sentence: "Nĩngũtemba kũndũ kũraya", translation: "I will run far away" }
     ],
-    pronunciation: 'moo-chee',
+    pronunciation: "goo-tem-ba",
     audio: null,
-    tags: ['place', 'family'],
-    notes: 'Refers to both the physical house and the concept of home.',
-    image: null,
+    tags: ["action", "movement"],
+    notes: "Basic verb for running.",
+    image: null
   },
   {
-    id: 'kikuyu-35',
-    word: 'Gũkũra',
-    language: 'Kikuyu',
-    partOfSpeech: 'verb',
+    id: "kikuyu-33",
+    word: "Mbembe",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      {
-        language: 'English',
-        word: 'To grow',
-        notes: 'To increase in size or develop.',
-      },
+      { language: "English", word: "Corn", notes: "A tall annual cereal grass bearing kernels on large ears." }
     ],
     exampleSentences: [
-      {
-        sentence: 'Mwana nĩarakũra wega',
-        translation: 'The child is growing well',
-      },
+      { sentence: "Mbembe ĩno nĩ nyumu", translation: "This corn is hard" }
     ],
-    pronunciation: 'goo-koo-ra',
+    pronunciation: "mbem-be",
     audio: null,
-    tags: ['action', 'development'],
-    notes: 'Can refer to physical growth or personal development.',
-    image: null,
+    tags: ["food", "plant"],
+    notes: "Refers to corn.",
+    image: "https://images.unsplash.com/photo-1568496038674-f2937c054524"
   },
   {
-    id: 'kikuyu-36',
-    word: 'Kũrũgama',
-    language: 'Kikuyu',
-    partOfSpeech: 'verb',
+    id: "kikuyu-34",
+    word: "Gũceera",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
     translations: [
-      {
-        language: 'English',
-        word: 'To stand',
-        notes: 'To be in an upright position.',
-      },
-    ],
-    exampleSentences: [{ sentence: 'Rũgama haha', translation: 'Stand here' }],
-    pronunciation: 'koo-roo-ga-ma',
-    audio: null,
-    tags: ['action', 'position'],
-    notes: 'Basic verb for body position.',
-    image: null,
-  },
-  {
-    id: 'kikuyu-37',
-    word: 'Gũikara',
-    language: 'Kikuyu',
-    partOfSpeech: 'verb',
-    translations: [
-      {
-        language: 'English',
-        word: 'To sit',
-        notes: 'To rest with the body supported on the buttocks.',
-      },
-    ],
-    exampleSentences: [{ sentence: 'Ikara thĩ', translation: 'Sit down' }],
-    pronunciation: 'goo-ee-ka-ra',
-    audio: null,
-    tags: ['action', 'position'],
-    notes: 'Basic verb for body position.',
-    image: null,
-  },
-  {
-    id: 'kikuyu-38',
-    word: 'Gũkoma',
-    language: 'Kikuyu',
-    partOfSpeech: 'verb',
-    translations: [
-      {
-        language: 'English',
-        word: 'To sleep',
-        notes: 'To be in a state of rest with eyes closed.',
-      },
+      { language: "English", word: "To visit", notes: "To go to see and spend time with (someone) socially." }
     ],
     exampleSentences: [
-      { sentence: 'Nĩngũthiĩ gũkoma', translation: 'I will go to sleep' },
+      { sentence: "Nĩngũceera thukuru", translation: "I will visit the school" }
     ],
-    pronunciation: 'goo-ko-ma',
+    pronunciation: "goo-cee-ra",
     audio: null,
-    tags: ['action', 'rest'],
-    notes: 'Basic verb for resting.',
-    image: null,
+    tags: ["action", "social"],
+    notes: "Basic verb for visiting.",
+    image: null
   },
   {
-    id: 'kikuyu-39',
-    word: 'Gũũka',
-    language: 'Kikuyu',
-    partOfSpeech: 'verb',
+    id: "kikuyu-35",
+    word: "Thukuru",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      {
-        language: 'English',
-        word: 'To come',
-        notes: 'To move toward something or someone.',
-      },
-    ],
-    exampleSentences: [{ sentence: 'Ũka haha', translation: 'Come here' }],
-    pronunciation: 'goo-oo-ka',
-    audio: null,
-    tags: ['action', 'movement'],
-    notes: 'Basic verb for movement toward the speaker.',
-    image: null,
-  },
-  {
-    id: 'kikuyu-40',
-    word: 'Gũthiĩ',
-    language: 'Kikuyu',
-    partOfSpeech: 'verb',
-    translations: [
-      {
-        language: 'English',
-        word: 'To go',
-        notes: 'To move away from something or someone.',
-      },
+      { language: "English", word: "School", notes: "An institution for educating children." }
     ],
     exampleSentences: [
-      { sentence: 'Thiĩ wega', translation: 'Go well (safe journey)' },
+      { sentence: "Thukuru ĩno nĩ nene", translation: "This school is big" }
     ],
-    pronunciation: 'goo-thee',
+    pronunciation: "thoo-koo-roo",
     audio: null,
-    tags: ['action', 'movement'],
-    notes: 'Basic verb for movement away from the speaker.',
-    image: null,
+    tags: ["education", "place"],
+    notes: "Refers to a school.",
+    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b"
   },
   {
-    id: 'kikuyu-41',
-    word: 'Kũhũra',
-    language: 'Kikuyu',
-    partOfSpeech: 'verb',
+    id: "kikuyu-36",
+    word: "Gũthĩkĩrĩria",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
     translations: [
-      {
-        language: 'English',
-        word: 'To rest',
-        notes: 'To cease work or movement in order to relax.',
-      },
+      { language: "English", word: "To listen", notes: "To give one's attention to a sound." }
     ],
     exampleSentences: [
-      { sentence: 'Nĩngwenda kũhũra', translation: 'I want to rest' },
+      { sentence: "Nĩngũthĩkĩrĩria nyĩmbo", translation: "I will listen to music" }
     ],
-    pronunciation: 'koo-hoo-ra',
+    pronunciation: "goo-thee-kee-ree-ree-a",
     audio: null,
-    tags: ['action', 'rest'],
-    notes: 'Important for well-being.',
-    image: null,
+    tags: ["action", "sound"],
+    notes: "Basic verb for listening.",
+    image: null
   },
   {
-    id: 'kikuyu-42',
-    word: 'Kũruta',
-    language: 'Kikuyu',
-    partOfSpeech: 'verb',
+    id: "kikuyu-37",
+    word: "Nyĩmbo",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      {
-        language: 'English',
-        word: 'To teach/educate',
-        notes: 'To impart knowledge.',
-      },
+      { language: "English", word: "Song", notes: "A musical composition with words for singing." }
     ],
     exampleSentences: [
-      { sentence: 'Nĩndĩraruta ciana', translation: 'I am teaching children' },
+      { sentence: "Nyĩmbo ĩno nĩ njega", translation: "This song is good" }
     ],
-    pronunciation: 'koo-roo-ta',
+    pronunciation: "nyeem-bo",
     audio: null,
-    tags: ['action', 'education'],
-    notes: 'Also means "to remove" in different contexts.',
-    image: null,
+    tags: ["music", "art"],
+    notes: "Refers to a song.",
+    image: "https://images.unsplash.com/photo-1494859803428-4944d58a6823"
   },
   {
-    id: 'kikuyu-43',
-    word: 'Kũrĩa',
-    language: 'Kikuyu',
-    partOfSpeech: 'verb',
+    id: "kikuyu-38",
+    word: "Gũũria",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
     translations: [
-      { language: 'English', word: 'To eat', notes: 'To consume food.' },
+      { language: "English", word: "To ask", notes: "To put a question to (someone)." }
     ],
     exampleSentences: [
-      { sentence: 'Rĩa irio ciaku', translation: 'Eat your food' },
+      { sentence: "Nĩngũũria kĩũria", translation: "I will ask a question" }
     ],
-    pronunciation: 'koo-ree-a',
+    pronunciation: "goo-oo-ree-a",
     audio: null,
-    tags: ['action', 'food'],
-    notes: 'Essential daily activity.',
-    image: null,
+    tags: ["action", "communication"],
+    notes: "Basic verb for asking.",
+    image: null
   },
   {
-    id: 'kikuyu-44',
-    word: 'Kũnyua',
-    language: 'Kikuyu',
-    partOfSpeech: 'verb',
+    id: "kikuyu-39",
+    word: "Kĩũria",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      { language: 'English', word: 'To drink', notes: 'To consume liquid.' },
-    ],
-    exampleSentences: [{ sentence: 'Nyua maaĩ', translation: 'Drink water' }],
-    pronunciation: 'koo-nyoo-a',
-    audio: null,
-    tags: ['action', 'food'],
-    notes: 'Essential daily activity.',
-    image: null,
-  },
-  {
-    id: 'kikuyu-45',
-    word: 'Kũgũra',
-    language: 'Kikuyu',
-    partOfSpeech: 'verb',
-    translations: [
-      {
-        language: 'English',
-        word: 'To buy',
-        notes: 'To acquire by paying money.',
-      },
+      { language: "English", word: "Question", notes: "A sentence worded or expressed so as to elicit information." }
     ],
     exampleSentences: [
-      { sentence: 'Nĩngũgũra irio', translation: 'I will buy food' },
+      { sentence: "Kĩũria gĩkĩ nĩ kĩrũru", translation: "This question is difficult" }
     ],
-    pronunciation: 'koo-goo-ra',
+    pronunciation: "kee-oo-ree-a",
     audio: null,
-    tags: ['action', 'commerce'],
-    notes: 'Economic activity.',
-    image: null,
+    tags: ["communication", "information"],
+    notes: "Refers to a question.",
+    image: "https://images.unsplash.com/photo-1555625423-b92718786999"
   },
   {
-    id: 'kikuyu-46',
-    word: 'Kwendia',
-    language: 'Kikuyu',
-    partOfSpeech: 'verb',
+    id: "kikuyu-40",
+    word: "Gũcookeria",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
     translations: [
-      {
-        language: 'English',
-        word: 'To sell',
-        notes: 'To give or hand over in exchange for money.',
-      },
+      { language: "English", word: "To answer", notes: "To say something in response to a question." }
     ],
     exampleSentences: [
-      { sentence: 'Nĩngwendia matunda', translation: 'I will sell fruits' },
+      { sentence: "Nĩngũcookeria kĩũria", translation: "I will answer the question" }
     ],
-    pronunciation: 'kwen-dee-a',
+    pronunciation: "goo-coo-ke-ree-a",
     audio: null,
-    tags: ['action', 'commerce'],
-    notes: 'Economic activity.',
-    image: null,
+    tags: ["action", "communication"],
+    notes: "Basic verb for answering.",
+    image: null
   },
   {
-    id: 'kikuyu-47',
-    word: 'Mbeca',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-41",
+    word: "Ũrugũ",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      { language: 'English', word: 'Money', notes: 'Medium of exchange.' },
+      { language: "English", word: "Banana", notes: "A long curved fruit which grows in clusters and has soft pulpy flesh and a smooth yellow skin when ripe." }
     ],
     exampleSentences: [
-      { sentence: 'Ndirĩ mbeca', translation: "I don't have money" },
+      { sentence: "Ũrugũ ũyũ nĩ mũthami", translation: "This banana is sweet" }
     ],
-    pronunciation: 'm-be-cha',
+    pronunciation: "oo-roo-goo",
     audio: null,
-    tags: ['commerce', 'object'],
-    notes: 'Important for transactions.',
-    image: null,
+    tags: ["food", "fruit"],
+    notes: "Refers to a banana.",
+    image: "https://images.unsplash.com/photo-1587133355429-5d9983a90515"
   },
   {
-    id: 'kikuyu-48',
-    word: 'Thogora',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-42",
+    word: "Gũtara",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
     translations: [
-      {
-        language: 'English',
-        word: 'Price',
-        notes: 'The amount of money expected in payment.',
-      },
+      { language: "English", word: "To count", notes: "Determine the total number of (a collection of items)." }
     ],
     exampleSentences: [
-      { sentence: 'Thogora wake nĩ ũrĩkũ?', translation: 'What is its price?' },
+      { sentence: "Nĩngũtara mbeca", translation: "I will count money" }
     ],
-    pronunciation: 'tho-go-ra',
+    pronunciation: "goo-ta-ra",
     audio: null,
-    tags: ['commerce', 'value'],
-    notes: 'Used in bargaining and transactions.',
-    image: null,
+    tags: ["action", "math"],
+    notes: "Basic verb for counting.",
+    image: null
   },
   {
-    id: 'kikuyu-49',
-    word: 'Ndũka',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-43",
+    word: "Mbeca",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
     translations: [
-      {
-        language: 'English',
-        word: 'Shop/Store',
-        notes: 'A place where goods are sold.',
-      },
+      { language: "English", word: "Money", notes: "A current medium of exchange in the form of coins and banknotes." }
     ],
     exampleSentences: [
-      { sentence: 'Nĩngũthiĩ ndũka', translation: 'I will go to the shop' },
+      { sentence: "Mbeca ĩno nĩ nyingi", translation: "This money is a lot" }
     ],
-    pronunciation: 'n-doo-ka',
+    pronunciation: "mbɛ-ca",
     audio: null,
-    tags: ['place', 'commerce'],
-    notes: 'Commercial establishment.',
-    image: null,
+    tags: ["finance", "economy"],
+    notes: "Refers to money.",
+    image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e"
   },
   {
-    id: 'kikuyu-50',
-    word: 'Thoko',
-    language: 'Kikuyu',
-    partOfSpeech: 'noun',
+    id: "kikuyu-44",
+    word: "Gũthaka",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
     translations: [
-      {
-        language: 'English',
-        word: 'Market',
-        notes: 'A place where goods are bought and sold.',
-      },
+      { language: "English", word: "To play", notes: "Engage in activity for enjoyment and recreation rather than a serious or practical purpose." }
     ],
     exampleSentences: [
-      { sentence: 'Thoko ĩno nĩ nene', translation: 'This market is big' },
+      { sentence: "Nĩngũthaka na ciana", translation: "I will play with children" }
     ],
-    pronunciation: 'tho-ko',
+    pronunciation: "goo-tha-ka",
     audio: null,
-    tags: ['place', 'commerce'],
-    notes: 'Important community gathering place for trade.',
-    image: null,
+    tags: ["action", "recreation"],
+    notes: "Basic verb for playing.",
+    image: null
   },
+  {
+    id: "kikuyu-45",
+    word: "Ciana",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
+    translations: [
+      { language: "English", word: "Children", notes: "A young human being below the age of puberty or full physical development." }
+    ],
+    exampleSentences: [
+      { sentence: "Ciana icio nĩ njega", translation: "Those children are good" }
+    ],
+    pronunciation: "ci-a-na",
+    audio: null,
+    tags: ["people", "family"],
+    notes: "Refers to children.",
+    image: "https://images.unsplash.com/photo-1541963463532-d68292c34e14"
+  },
+  {
+    id: "kikuyu-46",
+    word: "Gũtũũria",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
+    translations: [
+      { language: "English", word: "To wake up", notes: "Cease to sleep; get out of bed." }
+    ],
+    exampleSentences: [
+      { sentence: "Nĩngũtũũria rũciinĩ", translation: "I will wake up early" }
+    ],
+    pronunciation: "goo-too-oo-ree-a",
+    audio: null,
+    tags: ["action", "daily life"],
+    notes: "Basic verb for waking up.",
+    image: null
+  },
+  {
+    id: "kikuyu-47",
+    word: "Rũciinĩ",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
+    translations: [
+      { language: "English", word: "Morning", notes: "The period of time between sunrise and noon." }
+    ],
+    exampleSentences: [
+      { sentence: "Rũciinĩ nĩ kũrĩ theru", translation: "The morning is bright" }
+    ],
+    pronunciation: "roo-ci-i-ni",
+    audio: null,
+    tags: ["time", "daily life"],
+    notes: "Refers to the morning.",
+    image: "https://images.unsplash.com/photo-1508760014957-ca0c6eadb396"
+  },
+  {
+    id: "kikuyu-48",
+    word: "Gũthĩna",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
+    translations: [
+      { language: "English", word: "To sew", notes: "Join, fasten, or repair (something) by making stitches with a needle and thread or a sewing machine." }
+    ],
+    exampleSentences: [
+      { sentence: "Nĩngũthĩna nguo", translation: "I will sew clothes" }
+    ],
+    pronunciation: "goo-thee-na",
+    audio: null,
+    tags: ["action", "craft"],
+    notes: "Basic verb for sewing.",
+    image: null
+  },
+  {
+    id: "kikuyu-49",
+    word: "Nguo",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
+    translations: [
+      { language: "English", word: "Clothes", notes: "Items worn to cover the body." }
+    ],
+    exampleSentences: [
+      { sentence: "Nguo ĩno nĩ njerũ", translation: "This cloth is new" }
+    ],
+    pronunciation: "ngoo",
+    audio: null,
+    tags: ["object", "fashion"],
+    notes: "Refers to clothes.",
+    image: "https://images.unsplash.com/photo-1592861956114-ca8480f98776"
+  },
+  {
+    id: "kikuyu-50",
+    word: "Gũtũũra",
+    language: "Kikuyu",
+    partOfSpeech: "verb",
+    translations: [
+      { language: "English", word: "To stay", notes: "Remain in the same place." }
+    ],
+    exampleSentences: [
+      { sentence: "Nĩngũtũũra nyũmba", translation: "I will stay at home" }
+    ],
+    pronunciation: "goo-too-oo-ra",
+    audio: null,
+    tags: ["action", "location"],
+    notes: "Basic verb for staying.",
+    image: null
+  },
+  {
+    id: "kikuyu-51",
+    word: "Ũtukũ",
+    language: "Kikuyu",
+    partOfSpeech: "noun",
+    translations: [
+      { language: "English", word: "Night", notes: "The period from sunset to sunrise in each twenty-four hours." }
+    ],
+    exampleSentences: [
+      { sentence: "Ũtukũ nĩ mũirũ", translation: "The night is dark" }
+    ],
+    pronunciation: "oo-too-koo",
+    audio: null,
+    tags: ["time", "daily life"],
+    notes: "Refers to the night.",
+    image: "https://images.unsplash.com/photo-1503435980610-aeb8e83344b9"
+  }
 ];
 
 export default kikuyuData;
