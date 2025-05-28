@@ -892,7 +892,518 @@ const kikuyuData = [
     tags: ["time", "daily life"],
     notes: "Refers to the night.",
     image: "https://images.unsplash.com/photo-1503435980610-aeb8e83344b9"
-  }
+  },
+  {
+  id: 'kikuyu-51',
+  word: 'Mũgũnda',
+  language: 'Kikuyu',
+  partOfSpeech: 'noun',
+  translations: [
+    { language: 'English', word: 'Farm', notes: 'A piece of land used for growing crops or raising animals.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Mũgũnda waku nĩ mũnene', translation: 'Your farm is big' }
+  ],
+  pronunciation: 'moo-goon-da',
+  audio: null,
+  tags: ['place', 'agriculture'],
+  notes: 'Refers to a farm.',
+  image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb'
+},
+{
+  id: 'kikuyu-52',
+  word: 'Gũcokia',
+  language: 'Kikuyu',
+  partOfSpeech: 'verb',
+  translations: [
+    { language: 'English', word: 'To return', notes: 'To come or go back to a place or person.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Nĩngũcokia nyũmba', translation: 'I will return home' }
+  ],
+  pronunciation: 'goo-co-kee-a',
+  audio: null,
+  tags: ['action', 'movement'],
+  notes: 'Basic verb for returning.',
+  image: null
+},
+{
+  id: 'kikuyu-53',
+  word: 'Mũhũũ',
+  language: 'Kikuyu',
+  partOfSpeech: 'noun',
+  translations: [
+    { language: 'English', word: 'Rain', notes: 'Water falling in drops from clouds.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Mũhũũ waku nĩ mweri', translation: 'Your rain is heavy' }
+  ],
+  pronunciation: 'moo-hoo',
+  audio: null,
+  tags: ['nature', 'weather'],
+  notes: 'Refers to rain.',
+  image: 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0'
+},
+{
+  id: 'kikuyu-54',
+  word: 'Gũthetha',
+  language: 'Kikuyu',
+  partOfSpeech: 'verb',
+  translations: [
+    { language: 'English', word: 'To speak', notes: 'To say something to convey information or feelings.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Nĩngũthetha ũhoro', translation: 'I will speak about the news' }
+  ],
+  pronunciation: 'goo-the-tha',
+  audio: null,
+  tags: ['action', 'communication'],
+  notes: 'To communicate verbally.',
+  image: null
+},
+{
+  id: 'kikuyu-55',
+  word: 'Ũhoro',
+  language: 'Kikuyu',
+  partOfSpeech: 'noun',
+  translations: [
+    { language: 'English', word: 'News', notes: 'Newly received or noteworthy information.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Ũhoro ũcio nĩ mũũru', translation: 'That news is bad' }
+  ],
+  pronunciation: 'oo-ho-ro',
+  audio: null,
+  tags: ['communication', 'information'],
+  notes: 'Information about recent events.',
+  image: 'https://images.unsplash.com/photo-1495020689067-9588c892ca24'
+},
+{
+  id: 'kikuyu-56',
+  word: 'Gũtũma',
+  language: 'Kikuyu',
+  partOfSpeech: 'verb',
+  translations: [
+    { language: 'English', word: 'To send', notes: 'Cause to go or be taken to a destination.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Nĩngũtũma ndũmĩrĩri', translation: 'I will send a message' }
+  ],
+  pronunciation: 'goo-too-ma',
+  audio: null,
+  tags: ['action', 'communication'],
+  notes: 'To dispatch to a destination.',
+  image: null
+},
+{
+  id: 'kikuyu-57',
+  word: 'Ndũmĩrĩri',
+  language: 'Kikuyu',
+  partOfSpeech: 'noun',
+  translations: [
+    { language: 'English', word: 'Message', notes: 'A spoken or written piece of information.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Ndũmĩrĩri ĩno nĩ ya bata', translation: 'This message is important' }
+  ],
+  pronunciation: 'ndoo-mee-ree-ree',
+  audio: null,
+  tags: ['communication', 'information'],
+  notes: 'A piece of conveyed information.',
+  image: 'https://images.unsplash.com/photo-1589742734176-e0f970f3b1b2'
+},
+{
+  id: 'kikuyu-58',
+  word: 'Gũthĩĩna',
+  language: 'Kikuyu',
+  partOfSpeech: 'verb',
+  translations: [
+    { language: 'English', word: 'To be tired', notes: 'In a state of reduced energy.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Nĩndathĩĩna mũno', translation: 'I am very tired' }
+  ],
+  pronunciation: 'goo-thee-ee-na',
+  audio: null,
+  tags: ['feeling', 'state'],
+  notes: 'Feeling weary or fatigued.',
+  image: null
+},
+{
+  id: 'kikuyu-59',
+  word: 'Njamba',
+  language: 'Kikuyu',
+  partOfSpeech: 'noun',
+  translations: [
+    { language: 'English', word: 'Hero', notes: 'A person admired for courage or noble qualities.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Njamba ĩyo nĩ ya gĩthũngũ', translation: 'That hero is brave' }
+  ],
+  pronunciation: 'nja-mba',
+  audio: null,
+  tags: ['people', 'quality'],
+  notes: 'A person of distinguished courage.',
+  image: 'https://images.unsplash.com/photo-1543590944-248a3960b51a'
+},
+{
+  id: 'kikuyu-60',
+  word: 'Gũtũũra',
+  language: 'Kikuyu',
+  partOfSpeech: 'verb',
+  translations: [
+    { language: 'English', word: 'To live', notes: 'To have one’s home in a particular place.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Nĩngũtũũra Nairobi', translation: 'I will live in Nairobi' }
+  ],
+  pronunciation: 'goo-too-oo-ra',
+  audio: null,
+  tags: ['action', 'location'],
+  notes: 'To reside in a place.',
+  image: null
+},
+{
+  id: 'kikuyu-61',
+  word: 'Ũrugarĩ',
+  language: 'Kikuyu',
+  partOfSpeech: 'noun',
+  translations: [
+    { language: 'English', word: 'Heat', notes: 'The quality of being hot; high temperature.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Ũrugarĩ ũyũ nĩ mũnene', translation: 'This heat is intense' }
+  ],
+  pronunciation: 'oo-roo-ga-ree',
+  audio: null,
+  tags: ['nature', 'temperature'],
+  notes: 'The state of being hot.',
+  image: 'https://images.unsplash.com/photo-1517423440433-44e04ca5894a'
+},
+{
+  id: 'kikuyu-62',
+  word: 'Gũtheca',
+  language: 'Kikuyu',
+  partOfSpeech: 'verb',
+  translations: [
+    { language: 'English', word: 'To cook', notes: 'Prepare food by heating it.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Nĩngũtheca irio', translation: 'I will cook food' }
+  ],
+  pronunciation: 'goo-the-ca',
+  audio: null,
+  tags: ['action', 'food'],
+  notes: 'To prepare food by heating.',
+  image: null
+},
+{
+  id: 'kikuyu-63',
+  word: 'Irio',
+  language: 'Kikuyu',
+  partOfSpeech: 'noun',
+  translations: [
+    { language: 'English', word: 'Food', notes: 'Any nutritious substance eaten or drunk.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Irio icio nĩ njega', translation: 'That food is good' }
+  ],
+  pronunciation: 'ee-ree-o',
+  audio: null,
+  tags: ['food', 'sustenance'],
+  notes: 'Substance used as nourishment.',
+  image: 'https://images.unsplash.com/photo-1482049016688-2d36e1b9ca55'
+},
+{
+  id: 'kikuyu-64',
+  word: 'Gũtemba',
+  language: 'Kikuyu',
+  partOfSpeech: 'verb',
+  translations: [
+    { language: 'English', word: 'To run', notes: 'Move at a speed faster than a walk.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Nĩngũtemba kũndũ kũraya', translation: 'I will run far away' }
+  ],
+  pronunciation: 'goo-tem-ba',
+  audio: null,
+  tags: ['action', 'movement'],
+  notes: 'To move rapidly on foot.',
+  image: null
+},
+{
+  id: 'kikuyu-65',
+  word: 'Mbembe',
+  language: 'Kikuyu',
+  partOfSpeech: 'noun',
+  translations: [
+    { language: 'English', word: 'Corn', notes: 'A tall cereal grass bearing kernels on ears.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Mbembe ĩno nĩ nyumu', translation: 'This corn is hard' }
+  ],
+  pronunciation: 'mbem-be',
+  audio: null,
+  tags: ['food', 'plant'],
+  notes: 'A cereal plant.',
+  image: 'https://images.unsplash.com/photo-1568496038674-f2937c054524'
+},
+{
+  id: 'kikuyu-66',
+  word: 'Gũceera',
+  language: 'Kikuyu',
+  partOfSpeech: 'verb',
+  translations: [
+    { language: 'English', word: 'To visit', notes: 'Go to see and spend time with someone.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Nĩngũceera thukuru', translation: 'I will visit the school' }
+  ],
+  pronunciation: 'goo-cee-ra',
+  audio: null,
+  tags: ['action', 'social'],
+  notes: 'To go and spend time with someone.',
+  image: null
+},
+{
+  id: 'kikuyu-67',
+  word: 'Thukuru',
+  language: 'Kikuyu',
+  partOfSpeech: 'noun',
+  translations: [
+    { language: 'English', word: 'School', notes: 'An institution for educating children.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Thukuru ĩno nĩ nene', translation: 'This school is big' }
+  ],
+  pronunciation: 'thoo-koo-roo',
+  audio: null,
+  tags: ['education', 'place'],
+  notes: 'An educational institution.',
+  image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b'
+},
+{
+  id: 'kikuyu-68',
+  word: 'Gũthĩkĩrĩria',
+  language: 'Kikuyu',
+  partOfSpeech: 'verb',
+  translations: [
+    { language: 'English', word: 'To listen', notes: 'Give attention to a sound.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Nĩngũthĩkĩrĩria nyĩmbo', translation: 'I will listen to music' }
+  ],
+  pronunciation: 'goo-thee-kee-ree-ree-a',
+  audio: null,
+  tags: ['action', 'sound'],
+  notes: 'To pay attention to sound.',
+  image: null
+},
+{
+  id: 'kikuyu-69',
+  word: 'Nyĩmbo',
+  language: 'Kikuyu',
+  partOfSpeech: 'noun',
+  translations: [
+    { language: 'English', word: 'Song', notes: 'A musical composition with words.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Nyĩmbo ĩno nĩ njega', translation: 'This song is good' }
+  ],
+  pronunciation: 'nyeem-bo',
+  audio: null,
+  tags: ['music', 'art'],
+  notes: 'A musical composition.',
+  image: 'https://images.unsplash.com/photo-1494859803428-4944d58a6823'
+},
+{
+  id: 'kikuyu-70',
+  word: 'Gũũria',
+  language: 'Kikuyu',
+  partOfSpeech: 'verb',
+  translations: [
+    { language: 'English', word: 'To ask', notes: 'Put a question to someone.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Nĩngũũria kĩũria', translation: 'I will ask a question' }
+  ],
+  pronunciation: 'goo-oo-ree-a',
+  audio: null,
+  tags: ['action', 'communication'],
+  notes: 'To inquire of someone.',
+  image: null
+},
+  {
+  id: 'kikuyu-71',
+  word: 'Mũthoni',
+  language: 'Kikuyu',
+  partOfSpeech: 'noun',
+  translations: [
+    { language: 'English', word: 'Flower', notes: 'The seed-bearing part of a plant, often colorful and fragrant.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Mũthoni ĩno nĩ mweri', translation: 'This flower is beautiful' }
+  ],
+  pronunciation: 'moo-tho-nee',
+  audio: null,
+  tags: ['nature', 'plant'],
+  notes: 'A plant’s bloom.',
+  image: 'https://images.unsplash.com/photo-1501004318641-b39e6451bec6'
+},
+{
+  id: 'kikuyu-72',
+  word: 'Gũtũma',
+  language: 'Kikuyu',
+  partOfSpeech: 'verb',
+  translations: [
+    { language: 'English', word: 'To send', notes: 'Cause to go or be taken to a destination.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Nĩngũtũma ndũmĩrĩri', translation: 'I will send a message' }
+  ],
+  pronunciation: 'goo-too-ma',
+  audio: null,
+  tags: ['action', 'communication'],
+  notes: 'To dispatch to a destination.',
+  image: null
+},
+{
+  id: 'kikuyu-73',
+  word: 'Ndũmĩrĩri',
+  language: 'Kikuyu',
+  partOfSpeech: 'noun',
+  translations: [
+    { language: 'English', word: 'Message', notes: 'A spoken or written piece of information.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Ndũmĩrĩri ĩno nĩ ya bata', translation: 'This message is important' }
+  ],
+  pronunciation: 'ndoo-mee-ree-ree',
+  audio: null,
+  tags: ['communication', 'information'],
+  notes: 'A piece of conveyed information.',
+  image: 'https://images.unsplash.com/photo-1589742734176-e0f970f3b1b2'
+},
+{
+  id: 'kikuyu-74',
+  word: 'Gũthĩna',
+  language: 'Kikuyu',
+  partOfSpeech: 'verb',
+  translations: [
+    { language: 'English', word: 'To be tired', notes: 'In a state of reduced energy.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Nĩndathĩĩna mũno', translation: 'I am very tired' }
+  ],
+  pronunciation: 'goo-thee-na',
+  audio: null,
+  tags: ['feeling', 'state'],
+  notes: 'Feeling weary or fatigued.',
+  image: null
+},
+{
+  id: 'kikuyu-75',
+  word: 'Njamba',
+  language: 'Kikuyu',
+  partOfSpeech: 'noun',
+  translations: [
+    { language: 'English', word: 'Hero', notes: 'A person admired for courage or noble qualities.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Njamba ĩyo nĩ ya gĩthũngũ', translation: 'That hero is brave' }
+  ],
+  pronunciation: 'nja-mba',
+  audio: null,
+  tags: ['people', 'quality'],
+  notes: 'A person of distinguished courage.',
+  image: 'https://images.unsplash.com/photo-1543590944-248a3960b51a'
+},
+{
+  id: 'kikuyu-76',
+  word: 'Gũtũũra',
+  language: 'Kikuyu',
+  partOfSpeech: 'verb',
+  translations: [
+    { language: 'English', word: 'To live', notes: 'To have one’s home in a particular place.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Nĩngũtũũra Nairobi', translation: 'I will live in Nairobi' }
+  ],
+  pronunciation: 'goo-too-oo-ra',
+  audio: null,
+  tags: ['action', 'location'],
+  notes: 'To reside in a place.',
+  image: null
+},
+{
+  id: 'kikuyu-77',
+  word: 'Mũhũũ',
+  language: 'Kikuyu',
+  partOfSpeech: 'noun',
+  translations: [
+    { language: 'English', word: 'Rain', notes: 'Water falling in drops from clouds.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Mũhũũ waku nĩ mweri', translation: 'Your rain is heavy' }
+  ],
+  pronunciation: 'moo-hoo',
+  audio: null,
+  tags: ['nature', 'weather'],
+  notes: 'Refers to rain.',
+  image: 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0'
+},
+{
+  id: 'kikuyu-78',
+  word: 'Gũkora',
+  language: 'Kikuyu',
+  partOfSpeech: 'verb',
+  translations: [
+    { language: 'English', word: 'To find', notes: 'Discover or perceive by chance or unexpectedly.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Nĩngũkora mũthako', translation: 'I will find a toy' }
+  ],
+  pronunciation: 'goo-ko-ra',
+  audio: null,
+  tags: ['action', 'discovery'],
+  notes: 'To discover unexpectedly.',
+  image: null
+},
+{
+  id: 'kikuyu-79',
+  word: 'Mũthako',
+  language: 'Kikuyu',
+  partOfSpeech: 'noun',
+  translations: [
+    { language: 'English', word: 'Toy', notes: 'An object for a child to play with.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Mũthako ũyũ nĩ mũnini', translation: 'This toy is small' }
+  ],
+  pronunciation: 'moo-tha-ko',
+  audio: null,
+  tags: ['object', 'play'],
+  notes: 'An object for play.',
+  image: 'https://images.unsplash.com/photo-1585336244342-97b941839c39'
+},
+{
+  id: 'kikuyu-80',
+  word: 'Gũtũma',
+  language: 'Kikuyu',
+  partOfSpeech: 'verb',
+  translations: [
+    { language: 'English', word: 'To send', notes: 'Cause to go or be taken to a destination.' }
+  ],
+  exampleSentences: [
+    { sentence: 'Nĩngũtũma ndũmĩrĩri', translation: 'I will send a message' }
+  ],
+  pronunciation: 'goo-too-ma',
+  audio: null,
+  tags: ['action', 'communication'],
+  notes: 'To dispatch to a destination.',
+  image: null
+},
+  
 ];
 
 export default kikuyuData;
